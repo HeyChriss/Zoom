@@ -1,0 +1,156 @@
+html, body {
+    /*margin: 40px;*/
+    font-family: sans-serif;
+    height: 100%
+}
+.container {
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://byui.zoom.us/account/branding/p/df9de3f8-60e9-4d5c-84fc-53856ac8d173.jpg"); /*customize background image*/
+    /*background-image: url("https://st1.zoom.us/static/90325/image/new/home/DefaultLandingBgImg.jpg");*/
+    background-size: cover;
+}
+.content-body {
+    display: grid;
+    vertical-align: center;
+}
+a {
+    text-decoration: none;
+    color: #006ab2;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.content {
+    /*customize position*/
+    padding: 40px;
+    max-width: 100%;
+    text-align: center;
+    /*margin-left: 45%;*/
+}
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+h2{
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        padding-left: 25px;
+        text-transform: uppercase;
+}
+h3{
+padding-left:25px;
+}
+p {
+    font-size: 17px;
+padding-left: 25px;
+}
+.button {
+    width: 200px;
+    background-color: #0076C6; /*customize button color */
+    border-color: #0076C6;
+    padding: 12px 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    transition: .3s ease;
+}
+.button:hover {
+    background-color: #006ab2;  /*customize button color */
+}
+.btn-text {
+    color: white;   /*customize button font color */
+    font-size: 17px;
+}
+.made-with {
+    padding-top: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.row > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.right {
+    margin-left: 15px;
+}
+.right > span{
+    display: block;
+}
+
+.zoom-logo {
+    width: 140px;
+    height: 81.3px;
+}
+.footer {
+    display: table-row;
+    height: 60px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    vertical-align: middle;
+}
+.footer a {
+    padding-right: 40px;
+    width: 99px;
+    height: 19px;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2d292a !important;
+    line-height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 27px;
+    }
+    .row {
+        margin-bottom: 15px;
+    }
+    .row > div {
+        display: block;
+    }
+
+    .footer {
+        padding-bottom: 15px;
+        height: 40px;
+    }
+
+    .footer a {
+        display: block;
+        width: 100%;
+        height: inherit;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content {
+        margin: auto;
+    }
+
+    .content > div, .made-with {
+        text-align: center;
+    }
+}
+
+.middle {
+    display: grid;
+
+}
+
+.middle_left{
+    place-content: left;
+    text-align: center;
+}
