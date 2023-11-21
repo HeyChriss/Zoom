@@ -18,108 +18,83 @@
 
 
 <body>
-    <header style="height: 65px;">
+    <header style="height: 125px;">
         <a href="https://www.byui.edu/" class ="logo">
             <img src="/images/BYUI Logo 500x500.jpg"
                         alt="BYU-Idaho Logo" width="100" height="100"> 
         </a>
-      <nav>
-        <ul>
-          <li><a class="hover-element" href="about.html">About Zoom </a></li>
-          <li><a class="hover-element" href="#experience">Questions? </a></li>
-          <li><a class="hover-element" href="#">********</a></li>
-          <li><a class="hover-element" href="#">*******</a></li>
-        </ul>
-      </nav>
     </header>
 
     <div class="container">
         <div class="content-body">
-            <div class="content"><!--customize position-->
-                <div class="row">
-                    <img src="/account/branding/p/76d72fc7-da8d-43f7-9d97-f743ed307ecf.png" class="zoom-logo"
-                        alt="Zoom Logo"> <!--customize company logo-->
-                </div>
-                <div class="row">
-                    <h1> ZOOM - Video Conferencing </h1>
-                </div>
-                <div class="row">
-                    <div class="left">
-                        <a href="/join" class="button"><span class="btn-text">JOIN A MEETING</span></a>
-                    </div>
-                    <div class="right">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="left">
-                        <a href="/start/videomeeting" class="button">
-                            <span class="btn-text">START A MEETING</span>
-                        </a>
-                    </div>
-                    <div class="right">
-                        <span></span>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="left">
-                        <a href="/signin" class="button">
-                            <span class="btn-text">MY ZOOM ACCOUNT</span>
-                        </a>
-                    </div>
-                    <div class="right">
-                        <span></span>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="middle">
-                <div class="middle_left">
-                    <br />
-                        <h3>Getting Started</h3>
-                        <p>If you are new to Zoom, here are some tools to help you get started:</p>
-                        <ul>
-                            <li><a href="https://zoom.us/download#client_4meeting">Download the Zoom Application</a></li>
-                            <li><a href="https://zoom.us/download#chrome_ext">Install the Browser Extension</a></li>
-                            <li><a href="https://support.zoom.us/hc/en-us/articles/201362033-Getting-Started-on-PC-and-Mac">Mac
-                                    & PC</a></li>
-                            <li><a href="https://support.zoom.us/hc/en-us/articles/201362993-Getting-Started-with-iOS">iOS</a>
-                            </li>
-                            <li><a
-                                    href="https://support.zoom.us/hc/en-us/articles/200942759-Getting-Started-with-Android">Android</a>
-                            </li>
-                            <li><a href="https://www.youtube.com/watch?v=-rXrsPPLsGg">Schedule a Meeting with Zoom</a></li>
-                            <li><a href="https://www.youtube.com/watch?v=TAGiPCJNd3A ">Join a Meeting with Zoom</a></li>
-                            <li><a href="https://byu-idaho.screenstepslive.com/s/16998/m/71699 ">BYU-Idaho Zoom Help Guides</a>
-                            </li>
-                        </ul>
-                    <br />
-                </div>
-                <div class="middle_right">
-                    <h3>About Zoom</h3>
-                    <p>Zoom is BYU-Idaho's new vehicle for audio and video conferencing.</p>
-                    <p>Zoom capabilities include:</p>
-                    <ul>
-                        <li>Integrating with Outlook Calendar</li>
-                        <li>Free, unlimited usage</li>
-                        <li>Works on any device</li>
-                        <li>Screensharing and whiteboard</li>
-                        <li>Recording your meetings</li>
-                        <li>Invite up to 300 participants</li>
-                    </ul>
-                    <br />
-                </div>
-            </div>
-
-        </div>
-        <div class="footer">
-            <a href="https://td.byui.edu/TDClient/Requests/TicketRequests/NewForm?ID=si56XoZfLAE_">Click here to Request
-                a Webinar</a>
-            <a href="https://td.byui.edu/TDClient/Requests/TicketRequests/NewForm?ID=si56XoZfLAE_">Click here to get
-                help with Zoom</a>
+            <img src="/images/Zoom_logo.jpeg" class="zoom-logo"
+                alt="Zoom Logo"> <!--customize company logo-->                 
         </div>
     </div>
+
+    <div class="buttons">
+        <div class="column">
+
+            <a href="/join" class="button">
+                <img src="/images/Signin_icon.png" class = icon_image
+                alt="Sign In Icon" width="100" height="50">
+                <span class="btn-text">Sign In</span>
+            </a>
+        </div>
+        <div class="column">
+            <a href="/start/videomeeting" class="button">
+                <img src="/images/Download_icon.png" class = icon_image
+                alt="Download Icon" width="75" height="75">
+                <span class="btn-text">Download</span>
+            </a>
+        </div>
+        <div class="column">
+            <a href="/signin" class="button">
+                <img src="/images/Account_icon.png" class = icon_image
+                alt="Account Icon" width="100" height="75">
+                <span class="btn-text">Account</span>
+            </a>
+        </div>
+        <div class="column">
+            <a href="/signin" class="button">
+                <img src="/images/Help_icon.png" class = icon_image
+                alt="Help Icon" width="75" height="75">
+                <span class="btn-text">Help</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="small_buttons">
+        <div class="column">
+            <a href="#" class="small">
+                <img src="/images/Recordings_icon.png" class = icon_image
+                alt="Download Icon" width="30" height="25">
+                <span class="black-text">Recordings</span>
+            </a>    
+        </div>
+        <div class="column">
+            <a href="#" class="small">
+                <img src="/images/tips_icon.png" class = icon_image
+                alt="Download Icon" width="20" height="25">
+                <span class="black-text">Zoom Tips</span>
+            </a>
+        </div>             
+    </div>
+
+
+    <footer style="height: 100px;">
+        <div class="address"> 525 S Center <br> Rexburg ID, 83460 </div>
+        <ul class="footer-list">
+            <li class="footer-list-item">Accessibility Services |</li>
+            <li class="footer-list-item">Technical Help |</li>
+            <li class="footer-list-item" >Room Scheduling |</li>
+            <li class="footer-list-item" >Public Safety |</li>
+            <li class="footer-list-item" >Legal Notice |</li>
+            <li class="footer-list-item">Report and issue with this site |</li>
+            <li class="footer-list-item" >Copyright 2023</li>
+        </ul>
+    </footer>
+       
 </body>
 
 </html>
