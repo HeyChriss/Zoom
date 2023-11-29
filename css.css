@@ -87,41 +87,40 @@ padding-left:25px;
     margin-bottom: 0;
 }
 
+h1 {
+    font-size: 27px;
 
-
-
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 27px;
-    }
-    .row {
-        margin-bottom: 15px;
-    }
-    .row > div {
-        display: block;
-    }
-
-    .footer {
-        padding-bottom: 15px;
-        height: 40px;
-    }
-
-    .footer a {
-        display: block;
-        width: 100%;
-        height: inherit;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .content {
-        margin: auto;
-    }
-
-    .content > div, .made-with {
-        text-align: center;
-    }
 }
+
+.row {
+    margin-bottom: 15px;
+}
+
+.row > div {
+    display: block;
+}
+
+.footer {
+    padding-bottom: 15px;
+    height: 40px;
+}
+
+.footer a {
+    display: block;
+    width: 100%;
+    height: inherit;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content {
+    margin: auto;
+}
+
+.content > div, .made-with {
+    text-align: center;
+}
+
 
 
 ul {
@@ -200,3 +199,26 @@ element.style {
 }
 
 
+/* Add a media query for smaller screens */
+@media only screen and (max-width: 700px) {
+    .buttons, .small_buttons {
+        margin-right: 10px;
+        margin-left: 10px;
+        display: grid;
+    }
+
+    footer {
+        gap: 10px;
+        display: grid;
+        font-size: x-small;
+    }
+
+    .zoom-logo{
+        width: 200px;
+        height: 50px;
+    }
+
+    header a {
+        margin-left: 40px;
+    }
+}
