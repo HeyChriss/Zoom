@@ -201,10 +201,24 @@ element.style {
 
 /* Add a media query for smaller screens */
 @media only screen and (max-width: 700px) {
-    .buttons, .small_buttons {
+    .buttons {
         margin-right: 10px;
         margin-left: 10px;
         display: grid;
+        gap: 0px;
+    }
+
+    .small_buttons{
+        margin-right: 10px;
+        margin-left: 10px;
+        display: grid;
+        gap: 10px;  
+        padding-top: 40px;
+    }
+
+    .button{
+        margin-bottom: 0px;
+        
     }
 
     footer {
