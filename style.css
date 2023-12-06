@@ -200,13 +200,14 @@ element.style {
 
 
 /* Add a media query for smaller screens */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 822px) {
     .buttons {
         margin-right: 10px;
         margin-left: 10px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-top: 10px;
+        justify-items: center;
     }
 
     .small_buttons{
