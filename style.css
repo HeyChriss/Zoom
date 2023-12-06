@@ -205,7 +205,8 @@ element.style {
         margin-right: 10px;
         margin-left: 10px;
         display: grid;
-        gap: 0px;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
     }
 
     .small_buttons{
@@ -218,7 +219,9 @@ element.style {
 
     .button{
         margin-bottom: 0px;
-        
+        width: 130px;
+        height: 75px;
+        margin-top: 0px;
     }
 
     footer {
@@ -234,5 +237,30 @@ element.style {
 
     header a {
         margin-left: 40px;
+    }
+
+    .container {
+        display: grid;
+        width: 100%;
+        height: 30%;
+        background-image: url(https://st1.zoom.us/static/90325/image/new/home/DefaultLandingBgImg.jpg);
+        background-size: cover;
+        place-items: center;
+    }
+
+    .icon_image{
+        width: 60px;
+        height: 50px;
+    }
+
+    .icon_image_sign{
+        width: 85px;
+        height: 50px;
+    }
+
+
+    .icon_image_small{
+        width: 30px;
+        height: 25px;
     }
 }
