@@ -58,22 +58,23 @@ padding-left:25px;
 
 .button {
     width: 250px;
-    height: 150px;
+    height: 70px;
     background-color: #006EB6;
     border-color: #006EB6;
     padding: 12px 20px;
     display: grid;
     text-align: center;
     margin: 40px 0;
-    transition: .3s ease;
+    transition: .5s ease;
     justify-content: center;
     align-items: end;
     align-content: space-evenly;
     justify-items: center;
+    border-radius: 57px;
 }
 
 .button:hover {
-    background-color: #006ab2;  /*customize button color */
+    background-color: #67b3e6;  /*customize button color */
 }
 
 .btn-text {
@@ -134,6 +135,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: 125px
 }
  
 
@@ -201,6 +203,16 @@ element.style {
 
 /* Add a media query for smaller screens */
 @media only screen and (max-width: 822px) {
+    html, body {
+        height: 100vh; /* Set the height to 100% of the viewport height */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+    }
+
+    header{
+        height: 100px;
+    }
+
     .buttons {
         margin-right: 10px;
         margin-left: 10px;
@@ -243,20 +255,20 @@ element.style {
     .container {
         display: grid;
         width: 100%;
-        height: 30%;
+        height: 300px;
         background-image: url(https://st1.zoom.us/static/90325/image/new/home/DefaultLandingBgImg.jpg);
         background-size: cover;
         place-items: center;
     }
 
     .icon_image{
-        width: 60px;
-        height: 50px;
+        width: 32px;
+        height: 34px;
     }
 
     .icon_image_sign{
-        width: 85px;
-        height: 50px;
+        width: 54px;
+        height: 30px;
     }
 
 
