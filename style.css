@@ -204,12 +204,11 @@ element.style {
 /* Add a media query for smaller screens */
 @media only screen and (max-width: 822px) {
     html, body {
-        height: 100vh; /* Set the height to 100% of the viewport height */
-        margin: 0; /* Remove default margin */
-        padding: 0; /* Remove default padding */
+        margin: 0; 
+        padding: 0; 
     }
 
-    header{
+    header {
         height: 100px;
     }
 
@@ -235,6 +234,10 @@ element.style {
         width: 130px;
         height: 75px;
         margin-top: 0px;
+    }
+
+    .button:hover {
+        background-color: #67b3e6;  
     }
 
     footer {
