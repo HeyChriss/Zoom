@@ -279,4 +279,9 @@ element.style {
         width: 30px;
         height: 25px;
     }
+
+    .btn-text {
+        color: white;
+        font-size: 15px;
+    }
 }
